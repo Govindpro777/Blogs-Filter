@@ -29,12 +29,21 @@ const Header = () => {
             className="w-full md:w-2/3 lg:w-1/2 p-2 border border-gray-300 rounded-md outline-none focus:ring-2 focus:ring-blue-500 transition duration-200"
           />
         </div>
+
+        {/* Portfolio link aligned to the rightmost corner */}
+        <a
+          href="https://portfolio-govind.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-blue-600 font-medium hover:underline text-sm md:text-base"
+        >
+          My Portfolio
+        </a>
       </header>
     </div>
   );
 };
 
 export default Header;
-
 
 
